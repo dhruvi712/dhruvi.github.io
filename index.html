@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <!-- Include Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="web.js"></script>
+    <title>Dhruvi Rana</title>
+</head>
+<body>
+
+  <nav>
+   <div class="navbar">
+      <div class="logo" ><a href="#">Dhruvi Rana</a></div>
+      <div class="nav-links" id="nav-links">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <ul>
+        <li style="--i:#ffffff;--j:#9da3ff"><a href="#Projects">
+        <span class="icon"><ion-icon name="rocket-outline"></ion-icon></span>
+        <span class="title">Project</span></a>
+        </li>
+        <li style="--i:#9da3ff;--j:#ffffff"><a href="resume.pdf" target="_blank">
+        <span class="icon"><ion-icon name="document-outline"></ion-icon></span>
+        <span class="title">Resume</span></a>
+        </li>
+        </ul>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </div>
+      <button class="menu-btn" id="menu-btn">☰</button>
+
+    </div>
+  </nav>
+
+  <script>
+    const menuBtn = document.getElementById('menu-btn');
+    const navLinks = document.getElementById('nav-links');
+
+    menuBtn.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+  </script>
+  <section class="hero">
+  <h1>Portfolio</h1>
+
+  <!-- Decorative small texts -->
+  <span class="year">2025</span>
+  <span class="cv">CV</span>
+  <span class="star star1">✦</span>
+  <span class="star star2">✦</span> 
+  <span class="wave wave1">〰</span>
+  <span class="wave wave2">〰</span>
+  <span class="dot dot1"></span>
+  <span class="dot dot2"></span>
+
+  <!-- Subtitle inside outlined box -->
+  <div class="subtitle">Front-End Developer</div>
+
+  <!-- Handwritten note -->
+  <span class="note">Dhruvi Rana</span>
+
+  </section>
+
+<section class="about" id="About">
+  <div class="about-container">
+    
+    <!-- Left: Image with doodles -->
+    <div class="about-image">
+      <div class="image-wrapper">
+        <img src="2.jpg" alt="Your portrait">
+        <div class="glow"></div>
+      </div>
+
+      <!-- Tags -->
+      <span class="tag creative">creative</span>
+      <span class="tag sociable">sociable</span>
+      <span class="tag motivated">motivated</span>
+      <span class="tag detail">detail-oriented</span>
+      <span class="tag empathic">empathic</span>
+      <span class="tag fast">fast learner</span>
+
+      <!-- Sparkle doodles -->
+      <svg class="sparkle sparkle1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path d="M12 2l2 6 6 2-6 2-2 6-2-6-6-2 6-2z" stroke="#7a7cff" stroke-width="1.5" fill="none"/>
+      </svg>
+      <svg class="sparkle sparkle2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path d="M12 2l2 6 6 2-6 2-2 6-2-6-6-2 6-2z" stroke="#7a7cff" stroke-width="1.5" fill="none"/>
+      </svg>
+
+      <!-- Swirl doodle -->
+      <svg class="swirl" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 100">
+        <path d="M10,80 C50,20 150,20 190,80" stroke="#7a7cff" stroke-width="2.5" fill="none" />
+        <path d="M10,60 C60,10 140,10 190,60" stroke="#7a7cff" stroke-width="2.5" fill="none" />
+      </svg>
+    </div>
+
+    <!-- Right: Text -->
+    <div class="about-text">
+      <h2>Hello,</h2>
+      <p>
+   I am currently a third-semester college student with a growing interest in front-end development and UI/UX design. I enjoy exploring how design and technology come together to create engaging and user-friendly digital experiences. With a curious mindset and a strong willingness to learn, I am actively building my skills in web development and design principles. My goal is to deepen my understanding of modern tools, frameworks, and design systems while gaining practical experience that allows me to create intuitive and visually appealing interfaces.
+      </p>
+    </div>
+  </div>
+</section>
+ 
+
+<section>
+<h2 class="skills-heading">Skills</h2>
+
+<div class="skills-section">
+<div class="skill-card">
+  <i class="fab fa-html5"></i>
+  <span>HTML</span>
+  <div class="skill-bar">
+    <div class="skill-fill" style="--fill:100%;"></div>
+  </div>
+</div>
+<div class="skill-card">
+  <i class="fab fa-css3-alt"></i>
+  <span>CSS</span>
+  <div class="skill-bar">
+    <div class="skill-fill" style="--fill:85%;"></div>
+  </div>
+</div>
+<div class="skill-card">
+  <i class="fab fa-bootstrap"></i>
+  <span>Bootstrap</span>
+  <div class="skill-bar">
+    <div class="skill-fill" style="--fill:90%;"></div>
+  </div>
+</div>
+<div class="skill-card">
+  <i class="fa-solid fa-database"></i>
+  <span>Oracle SQL</span>
+  <div class="skill-bar">
+    <div class="skill-fill" style="--fill:55%;"></div>
+  </div>
+</div>
+<div class="skill-card">
+  <i class="fa-solid fa-mobile-screen-button"></i>
+  <span>Responsive Design</span>
+  <div class="skill-bar">
+    <div class="skill-fill" style="--fill:85%;"></div>
+  </div>
+</div>
+</div>
+
+<h3 class="skills-heading-2">In-Progress Skills</h3>
+<div class="skills-section">
+  <div class="skill-card"><i class="fab fa-php"></i><span>PHP</span></div>
+  <div class="skill-card"><i class="fab fa-python"></i><span>Python</span></div>
+</div>
+
+<h3 class="skills-heading-2">Other Skills</h3>
+<div class="skills-section">
+  <div class="skill-card"><i class="fab fa-figma"></i><span>Figma</span></div>
+  <div class="skill-card"><i class="fas fa-film"></i><span>DaVinci Resolve</span></div>
+</div><br><br>
+</section>
+
+
+  <!-- Projects Section -->
+  <section id="Projects" class="projects">
+    <h2 class="section-title">My Projects</h2>
+    <div class="projects-grid">
+      
+      <div class="project-card">
+        <div class="project-content">
+          <h3>DR</h3>
+          <p>A personal portfolio showcasing my skills, projects, and creativity as a front-end developer. Built with HTML, CSS, and responsive design principles, this project highlights clean design, smooth animations, and accessibility for all devices.</p>
+          <div class="project-links">
+            <a href="https://github.com/yourrepo/project2" target="_blank" class="link-btn github">
+             <i class="fab fa-github"></i> GitHub</a>
+            <a href="https://example.com/project1" target="_blank" class="link-btn">Live Demo</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-content">
+          <h3>Project Two</h3>
+          <p>A short description about your project goes here. Explain what you built and why it’s meaningful.</p>
+          <div class="project-links">
+            <a href="https://github.com/yourrepo/project2" target="_blank" class="link-btn github">
+             <i class="fab fa-github"></i> GitHub</a>
+            <a href="https://example.com/project2" target="_blank" class="link-btn">Live Demo</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-content">
+          <h3>Project Three</h3>
+          <p>A short description about your project goes here. Explain what you built and why it’s meaningful.</p>
+          <div class="project-links">
+            <a href="https://github.com/yourrepo/project2" target="_blank" class="link-btn github">
+             <i class="fab fa-github"></i> GitHub</a>
+            <a href="https://example.com/project3" target="_blank" class="link-btn">Live Demo</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+
+  <footer>
+    <div class="footer-container">
+      <div class="social-links">
+      <a href="https://www.linkedin.com/in/dhruvi-rana12/" target="_blank">
+      <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="https://github.com/dhruvi712" target="_blank">
+      <i class="fab fa-github"></i>
+      </a>
+      <a href="resume.pdf" target="_blank" title="Resume">
+      <i class="fas fa-file-alt"></i>
+     </a><!--
+     <a href="https://www.behance.net" target="_blank">
+     <i class="fab fa-behance-square"></i>
+     </a>-->
+     <a href="https://codepen.io/rdhruviiii" target="_blank" title="CodePen">
+     <i class="fas fa-code"></i>
+     </a>
+     </div>
+      <p>© <span id="year"></span> Dhruvi Rana. All rights reserved.</p>
+    </div>
+  </footer>
+
+   <script>
+    // Auto update year
+    document.getElementById("year").textContent = new Date().getFullYear();
+   </script>
+    
+</body>
+</html>
